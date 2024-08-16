@@ -23,59 +23,7 @@ body {
   max-width: 500px;
 }
 
-.app-header {
-  text-align: center;
-  margin-bottom: 30px;
-}
 
-.app-header h1 {
-  color: var(--primary-color);
-  font-size: 32px;
-  margin-bottom: 10px;
-}
-
-.app-header p {
-  color: var(--text-color);
-  font-size: 18px;
-}
-
-.app-content {
-  height: 800px;
-  overflow-y: auto;
-}
-
-.app-content-item {
-  padding: 20px;
-}
-
-.app-content p {
-  color: var(--text-color);
-  font-size: 16px;
-  line-height: 1.6;
-  margin: 0;
-}
-
-.flickity-viewport {
-  transition: height 0.2s;
-}
-
-@media (max-width: 767px) {
-  .app-container {
-    padding: 20px;
-  }
-
-  .app-header h1 {
-    font-size: 28px;
-  }
-
-  .app-header p {
-    font-size: 16px;
-  }
-
-  .app-content p {
-    font-size: 14px;
-  }
-}
 
 /* Start header */
 .header {
@@ -89,7 +37,7 @@ body {
   background: none;
   border: none;
   color: white;
-  font-size: 22px;
+  font-size: 30px;
   cursor: pointer;
   margin-right: 10px;
 }
@@ -168,3 +116,21 @@ body {
 }
 
 /* End header */
+
+.top {
+ display: flex;
+ justify-content: space-between;
+ margin: 0 13px 4px 30px;
+ align-items: start;
+}
+.top .top-number {
+  border-radius:40px;
+  padding: 4px;
+  margin: 0;
+  font-size: small;
+  background-color: #1e1528;
+  text-align: center;
+}
+.top img{
+  width:120px;
+}
