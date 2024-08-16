@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>تطبيق</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2.2.2/dist/flickity.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.min.css">
 </head>
 
 <body>
@@ -113,20 +113,31 @@
                 </div>
             </div>
         </section>
+        <section class="add-comments">
+            <div class="comment-item">
+                😀 <input type="text" placeholder="القي التحية !">
+            </div>
+            <div class="links">
+                <span class="link-item">
+                  <i class="fas fa-candy-cane"></i>
+                  <span>حلاوة</span>
+                </span>
+                <span class="link-item">
+                  <i class="fas fa-gift"></i>
+                  <span>هدية</span>
+                </span>
+                <span class="link-item">
+                  <i class="fas fa-share"></i>
+                  <span>مشاركة</span>
+                </span>
+              </div>
+        </section>
 
 
 
     </main>
-    <script src="https://unpkg.com/flickity@2.2.2/dist/flickity.pkgd.min.js"></script>
-    <script>
-        
-        var flkty = new Flickity('.app-content', {
-            cellAlign: 'top',
-            contain: true,
-            prevNextButtons: false,
-            pageDots: false
-        });
-    </script>
+    <script src="all.min.js"></script>
+   
 </body>
 
 </html>

@@ -290,10 +290,9 @@ body {
   align-items: start;
   justify-content: end;
   flex-direction: column;
-  height: 230px;
+  height: 220px;
   overflow: hidden;
   margin-top: 20px;
-
 }
 
 .comments .comment-item {
@@ -318,10 +317,49 @@ body {
   font-size: x-small;
 }
 
-/* .comments .comment-item .user-img{
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  margin-left: 2px;
-} */
-/* end supporters section */
+/* end comment section */
+
+/* start add-comment section */
+.add-comments {
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+
+}
+
+.add-comments input {
+  background-color: #33333338;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  padding: 10px;
+  margin-right: 0;
+  width: 200px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.link-item {
+  display: flex;
+  align-items: center;
+  font-size: small;
+  flex-direction: column;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.773);
+  transition: color 0.3s ease;
+}
+
+.link-item i {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.link-item:hover {
+  color: #6226a0;
+}
+
+/* end add-comment section */
