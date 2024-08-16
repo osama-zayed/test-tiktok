@@ -67,10 +67,10 @@ body {
 .user-profile {
   display: flex;
   align-items: center;
-  border-radius:40px;
+  border-radius: 40px;
   padding: 3px 0 3px 5px;
   background-color: #1e1528;
-  
+
 }
 
 .add-icon {
@@ -112,26 +112,99 @@ body {
   font-size: 12px;
   color: #ff4d4d;
 }
+
 .user-stats {
   color: white;
 }
 
-/* End header */
-
 .top {
- display: flex;
- justify-content: space-between;
- margin: 0 13px 4px 30px;
- align-items: start;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 13px 4px 30px;
+  align-items: start;
 }
+
 .top .top-number {
-  border-radius:40px;
+  border-radius: 40px;
   padding: 4px;
   margin: 0;
   font-size: small;
   background-color: #1e1528;
   text-align: center;
 }
-.top img{
-  width:120px;
+
+.top img {
+  width: 120px;
 }
+
+/* End header */
+
+
+/* start video section */
+.video-section .score {
+  height: 20px;
+  background: linear-gradient(to right, #9317fd, #fec152, #ff7f11);
+  background-size: 200% 200%;
+  animation: colorShift 5s ease infinite;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 15px;
+}
+
+@keyframes colorShift {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.video-section .video {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.video-section .video img {
+  width: 50%;
+  height: 320px;
+}
+.video-section .video .time {
+ position: absolute;
+ background-color: #33333392;
+ font-size: small;
+ padding: 3px 7px;
+ border-radius: 0 0 10px 10px;
+ top: 0;
+ right: 45%;
+}
+.video-section .video .time span{
+  color: #ecd902;
+}
+.video-section .video .win {
+ position: absolute;
+ font-size: small;
+ padding: 3px 7px;
+ top: 10px;
+ width: 97%;
+ display: flex;
+ justify-content: space-between;
+}
+.video-section .video .win .num{
+ background-color: #33333388;
+ font-size: small;
+ padding: 3px 7px;
+ border-radius: 40px;
+}
+.video-section .video .win .num span{
+color: #ecd902;
+}
+
+/* end video section */
