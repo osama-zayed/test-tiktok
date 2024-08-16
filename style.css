@@ -211,16 +211,117 @@ body {
 .video-section .video .win .num span {
   color: #ecd902;
 }
-.video-section .video .account  {
+
+.video-section .video .account {
   position: absolute;
   font-size: small;
   padding: 2px 7px;
   bottom: 10px;
   background-color: #33333388;
-  font-size: small;
+  font-size: x-small;
   padding: 2px 5px;
   right: 10px;
   border-radius: 40px;
 }
 
 /* end video section */
+/* start supporters section */
+.supporters {
+  padding: 7px 15px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.supporters .viewer-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.supporters .viewer-icons.one {
+  color: 1px solid #ffb810;
+}
+
+.supporters .viewer-icons.one img {
+  border: 1px solid #ffb810;
+}
+
+.supporters .viewer-icons {
+  color: 1px solid #6226a0;
+}
+
+.supporters img {
+  border: 1px solid #6226a0;
+  margin-left: -5px;
+}
+
+.supporters .viewer-icons.two img {
+  z-index: 20;
+}
+
+.supporters .viewer-icons.two img:nth-child(2) {
+  z-index: 2;
+}
+
+.supporters .viewer-icons.two img:nth-child(3) {
+  z-index: 0;
+}
+
+.supporters .double {
+  position: absolute;
+  background-color: #6226a0;
+  border-radius: 40px;
+  font-size: x-small;
+  padding: 0 10px;
+  height: calc(100% - 20px);
+  display: flex;
+  width: 100px;
+  align-items: center;
+  top: 10px;
+  right: 35%;
+  justify-content: space-evenly;
+}
+
+/* end supporters section */
+/* start comments section */
+.comments {
+  display: flex;
+  align-items: start;
+  justify-content: end;
+  flex-direction: column;
+  height: 230px;
+  overflow: hidden;
+  margin-top: 20px;
+
+}
+
+.comments .comment-item {
+  padding: 10px;
+  display: flex;
+  justify-content: start;
+}
+
+.comments .comment-item:first-child {
+  opacity: 20%;
+}
+
+.comments .comment-item .user-name {
+  margin-top: 5px;
+  font-size: x-small;
+  opacity: 90%;
+  color: #f4f4f4a8;
+}
+
+.comments .comment-item .user-comment {
+  margin-top: 3px;
+  font-size: x-small;
+}
+
+/* .comments .comment-item .user-img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 2px;
+} */
+/* end supporters section */
