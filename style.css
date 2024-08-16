@@ -176,35 +176,51 @@ body {
   width: 50%;
   height: 320px;
 }
+
 .video-section .video .time {
- position: absolute;
- background-color: #33333392;
- font-size: small;
- padding: 3px 7px;
- border-radius: 0 0 10px 10px;
- top: 0;
- right: 45%;
+  position: absolute;
+  background-color: #33333392;
+  font-size: small;
+  padding: 3px 7px;
+  border-radius: 0 0 10px 10px;
+  top: 0;
+  right: 45%;
 }
-.video-section .video .time span{
+
+.video-section .video .time span {
   color: #ecd902;
 }
+
 .video-section .video .win {
- position: absolute;
- font-size: small;
- padding: 3px 7px;
- top: 10px;
- width: 97%;
- display: flex;
- justify-content: space-between;
+  position: absolute;
+  font-size: small;
+  padding: 3px 7px;
+  top: 10px;
+  width: 97%;
+  display: flex;
+  justify-content: space-between;
 }
-.video-section .video .win .num{
- background-color: #33333388;
- font-size: small;
- padding: 3px 7px;
- border-radius: 40px;
+
+.video-section .video .win .num {
+  background-color: #33333388;
+  font-size: small;
+  padding: 3px 7px;
+  border-radius: 40px;
 }
-.video-section .video .win .num span{
-color: #ecd902;
+
+.video-section .video .win .num span {
+  color: #ecd902;
+}
+.video-section .video .account  {
+  position: absolute;
+  font-size: small;
+  padding: 2px 7px;
+  bottom: 10px;
+  background-color: #33333388;
+  font-size: small;
+  padding: 2px 5px;
+  right: 10px;
+  border-radius: 40px;
 }
 
 /* end video section */
