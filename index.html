@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تطبيق</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2.2.2/dist/flickity.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="app-container">
+        <header class="header">
+            <div class="user-profile">
+                <img src="user-profile.jpg" alt="User Profile" class="profile-img">
+                <div class="user-details">
+                    <p class="user-name">ابو خالد</p>
+                    <p class="user-stats"> ❤️ <span class="number">6094</span></p>
+                </div>
+                <div class="add-icon">+</div>
+
+            </div>
+            <div class="viewer-info">
+                <div class="viewer-icons">
+                    <img src="viewer1.jpg" alt="Viewer 1">
+                    <img src="viewer2.jpg" alt="Viewer 2">
+                    <img src="viewer3.jpg" alt="Viewer 3">
+                </div>
+                <div class="viewer-count">159</div>
+                <button class="close-btn">✖</button>
+            </div>
+
+        </header>
+
+
+    </main>
+    <script src="https://unpkg.com/flickity@2.2.2/dist/flickity.pkgd.min.js"></script>
+    <script>
+        var flkty = new Flickity('.app-content', {
+            cellAlign: 'top',
+            contain: true,
+            prevNextButtons: false,
+            pageDots: false
+        });
+    </script>
+</body>
+
+</html>

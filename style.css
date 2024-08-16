@@ -1,0 +1,170 @@
+:root {
+  --section-color: #130425;
+  --primary-color: #007bff;
+  --text-color: #333;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  color: #f6f1fb;
+}
+
+.app-container {
+  background-color: var(--section-color);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 450px;
+  height: 800px;
+  max-width: 500px;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.app-header h1 {
+  color: var(--primary-color);
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.app-header p {
+  color: var(--text-color);
+  font-size: 18px;
+}
+
+.app-content {
+  height: 800px;
+  overflow-y: auto;
+}
+
+.app-content-item {
+  padding: 20px;
+}
+
+.app-content p {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.flickity-viewport {
+  transition: height 0.2s;
+}
+
+@media (max-width: 767px) {
+  .app-container {
+    padding: 20px;
+  }
+
+  .app-header h1 {
+    font-size: 28px;
+  }
+
+  .app-header p {
+    font-size: 16px;
+  }
+
+  .app-content p {
+    font-size: 14px;
+  }
+}
+
+/* Start header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.viewer-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.viewer-count {
+  background-color: #1e1528;
+  padding: 5px 10px;
+  border-radius: 15px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.viewer-icons img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: auto;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  border-radius:40px;
+  padding: 3px 0 3px 5px;
+  background-color: #1e1528;
+  
+}
+
+.add-icon {
+  background-color: #a356f2;
+  border-radius: 50%;
+  color: white;
+  padding: 3px;
+  font-size: 25px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 2px;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.user-name {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.user-stats {
+  margin: 0;
+  font-size: 12px;
+  color: #ff4d4d;
+}
+.user-stats {
+  color: white;
+}
+
+/* End header */
